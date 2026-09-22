@@ -3,15 +3,18 @@ require __DIR__ . '/includes/header.php';
 ?>
 
   <section class="hero" id="home">
-    <span class="folder-label mono">dossier — portfolio 2026</span>
+    <span class="folder-label mono">portfolio — 2026</span>
     <div class="hero-grid">
       <div>
         <h1 id="name-text"></h1>
         <div class="role" id="role-text"></div>
-        <p class="lede">Ik bouw snelle, doordachte webapplicaties van eerste schets tot werkende code. Deze pagina is mijn portfolio in het kort: wie ik ben, wat ik kan en wat ik gemaakt heb.</p>
+        <p class="lede">Ik bouw snelle, doordachte webapplicaties van eerste schets tot werkende code. Dit portfolio geeft een beknopt beeld van wie ik ben, wat ik kan en wat ik heb gemaakt.</p>
       </div>
-      <div class="stamp">
-        <div id="stamp-text"></div>
+      <div class="hero-side">
+        <figure class="hero-profile">
+          <img src="assets/images/furkan.jpeg" alt="Profielfoto van Furkan Ceylan">
+          <figcaption class="mono">software developer · Amsterdam</figcaption>
+        </figure>
       </div>
     </div>
   </section>
@@ -24,11 +27,14 @@ require __DIR__ . '/includes/header.php';
     <span class="eyebrow">01</span>
     <h2 class="head">Over mij</h2>
     <div class="about-body">
-      <p>Ik ben een Software Development-student. 3e-jaars Software Development-student met een voorkeur voor projecten waarbij ik snel iets werkends kan neerzetten en daarna pas verfijn. Ik leer het snelst door dingen kapot te maken en opnieuw op te bouwen.</p>
+      <div class="about-copy">
+        <p>Ik ben een derdejaarsstudent Software Development die graag aan projecten werkt waarin ik snel iets werkends kan bouwen en het daarna kan verfijnen.</p>
+        <p>Ik leer het beste door dingen uit elkaar te halen en opnieuw op te bouwen. Mijn focus ligt op duidelijke interfaces, praktische code en digitale producten die prettig werken.</p>
+      </div>
       <ul class="fact-list">
         <li><span>locatie</span><span>Amsterdam, NL</span></li>
         <li><span>opleiding</span><span>Software Development</span></li>
-        <li><span>beschikbaar</span><span>stage / bijbaan</span></li>
+        <li><span>beschikbaar voor</span><span>stage / parttime</span></li>
         <li><span>focus</span><span>frontend & backend</span></li>
       </ul>
     </div>
@@ -53,12 +59,12 @@ require __DIR__ . '/includes/header.php';
     <h2 class="head">Projecten</h2>
 
     <div class="project">
-      <span class="tab mono">side project</span>
+      <span class="tab mono">zijproject</span>
       <h3>Responsive kalender</h3>
-      <p>Een overzichtelijke kalender waarmee je tussen maanden navigeert. De huidige dag wordt automatisch gemarkeerd en de interface werkt op desktop en mobiel.</p>
+      <p>Een duidelijke kalender waarmee je tussen maanden kunt navigeren. De huidige dag wordt automatisch gemarkeerd en de interface werkt op desktop en mobiel.</p>
       <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
       <div class="project-links">
-        <a href="https://38906.hosts2.ma-cloud.nl/kalender/" class="link mono" target="_blank" rel="noopener noreferrer">kijk website →</a>
+        <a href="https://38906.hosts2.ma-cloud.nl/kalender/" class="link mono" target="_blank" rel="noopener noreferrer">bekijk website →</a>
         <a href="https://github.com/user2230/kalender" class="link link-code mono" target="_blank" rel="noopener noreferrer">bekijk code ↗</a>
       </div>
     </div>
@@ -69,21 +75,30 @@ require __DIR__ . '/includes/header.php';
       <p>Een gebruiksvriendelijke webshop met een duidelijke productpresentatie en een praktische flow voor bezoekers.</p>
       <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
       <div class="project-links">
-        <a href="https://38906.hosts2.ma-cloud.nl/webshop/" class="link mono" target="_blank" rel="noopener noreferrer">kijk website →</a>
+        <a href="https://38906.hosts2.ma-cloud.nl/webshop/" class="link mono" target="_blank" rel="noopener noreferrer">bekijk website →</a>
         <a href="https://github.com/user2230/webshop" class="link link-code mono" target="_blank" rel="noopener noreferrer">bekijk code ↗</a>
       </div>
     </div>
 
     <div class="project">
-      <span class="tab mono">side project</span>
+      <span class="tab mono">zijproject</span>
       <h3>Stopwatch</h3>
-      <p>Een eenvoudige stopwatch waarmee je de tijd kunt starten, pauzeren en opnieuw instellen.</p>
+      <p>Een eenvoudige stopwatch waarmee je de tijd kunt starten, pauzeren en resetten.</p>
       <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
       <div class="project-links">
-        <a href="https://38906.hosts2.ma-cloud.nl/stopwatch/" class="link mono" target="_blank" rel="noopener noreferrer">kijk website →</a>
+        <a href="https://38906.hosts2.ma-cloud.nl/stopwatch/" class="link mono" target="_blank" rel="noopener noreferrer">bekijk website →</a>
         <a href="https://github.com/user2230/stopwatch" class="link link-code mono" target="_blank" rel="noopener noreferrer">bekijk code ↗</a>
       </div>
 
+    </div>
+  </section>
+
+  <section id="cv" data-fade-content>
+    <span class="eyebrow">04</span>
+    <h2 class="head">CV</h2>
+    <div class="envelope">
+      <p>Bekijk mijn opleiding, ervaring en vaardigheden in mijn CV.</p>
+      <a href="FurkanCV2.pdf" class="btn mono" target="_blank" rel="noopener noreferrer">bekijk cv</a>
     </div>
   </section>
 

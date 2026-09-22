@@ -110,17 +110,3 @@ const BlurText = ({
   );
 };
 
-const stampText = document.querySelector('#stamp-text');
-
-if (stampText) {
-  createRoot(stampText).render(
-    React.createElement(BlurText, {
-      text: 'bouwt binnen 1 week een werkend prototype',
-      delay: 90,
-      animateBy: 'words',
-      direction: 'top',
-      stepDuration: 0.35,
-      className: 'stamp-text'
-    })
-  );
-}
