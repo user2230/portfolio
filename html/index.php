@@ -53,7 +53,6 @@ require __DIR__ . '/includes/header.php';
     <h2 class="head">Projecten</h2>
 
     <div class="project">
-<<<<<<< HEAD
       <span class="tab mono">side project</span>
       <h3>Responsive kalender</h3>
       <p>Een overzichtelijke kalender waarmee je tussen maanden navigeert. De huidige dag wordt automatisch gemarkeerd en de interface werkt op desktop en mobiel.</p>
@@ -73,18 +72,10 @@ require __DIR__ . '/includes/header.php';
         <a href="https://38906.hosts2.ma-cloud.nl/webshop/" class="link mono" target="_blank" rel="noopener noreferrer">kijk website →</a>
         <a href="https://github.com/user2230/webshop" class="link link-code mono" target="_blank" rel="noopener noreferrer">bekijk code ↗</a>
       </div>
-=======
-      <span class="tab mono">schoolproject</span>
-      <h3>Weer-app met live API</h3>
-      <p>Een webapp die actuele weersgegevens ophaalt via een externe API en toont per locatie, met caching zodat de app ook offline bruikbaar blijft.</p>
-      <div class="tags"><span>JavaScript</span><span>API</span><span>CSS</span></div>
-      <a href="#" class="link mono">bekijk op github →</a>
->>>>>>> 6d6e08ce52e382974eb277d600bce32be270a5e1
     </div>
 
     <div class="project">
       <span class="tab mono">side project</span>
-<<<<<<< HEAD
       <h3>Stopwatch</h3>
       <p>Een eenvoudige stopwatch waarmee je de tijd kunt starten, pauzeren en opnieuw instellen.</p>
       <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
@@ -92,36 +83,7 @@ require __DIR__ . '/includes/header.php';
         <a href="https://38906.hosts2.ma-cloud.nl/stopwatch/" class="link mono" target="_blank" rel="noopener noreferrer">kijk website →</a>
         <a href="https://github.com/user2230/stopwatch" class="link link-code mono" target="_blank" rel="noopener noreferrer">bekijk code ↗</a>
       </div>
-    </div>
 
-=======
-      <h3>Takenlijst met React</h3>
-      <p>Een lichte to-do applicatie met lokale opslag, drag-and-drop volgorde en een minimalistische interface, gebouwd om React hooks onder de knie te krijgen.</p>
-      <div class="tags"><span>React</span><span>JavaScript</span></div>
-      <a href="#" class="link mono">bekijk op github →</a>
-    </div>
-
-    <div class="project">
-      <span class="tab mono">stage-opdracht</span>
-      <h3>Dashboard voor klantdata</h3>
-      <p>Een intern dashboard waarmee klantgegevens overzichtelijk worden weergegeven, inclusief filters, zoekfunctie en een koppeling met een SQL-database.</p>
-      <div class="tags"><span>Python</span><span>SQL</span><span>Flask</span></div>
-      <a href="#" class="link mono">bekijk op github →</a>
-    </div>
->>>>>>> 6d6e08ce52e382974eb277d600bce32be270a5e1
-  </section>
-
-  <section id="cv" data-fade-content>
-    <span class="eyebrow">04</span>
-    <h2 class="head">CV</h2>
-    <div class="envelope">
-<<<<<<< HEAD
-      <p>Wil je mijn volledige achtergrond, opleiding en werkervaring zien? Bekijk mijn cv als pdf.</p>
-      <a href="FurkanCV2.pdf" class="btn" target="_blank" rel="noopener noreferrer">Bekijk cv</a>
-=======
-      <p>Wil je mijn volledige achtergrond, opleiding en werkervaring zien? Download mijn cv als pdf.</p>
-      <a href="assets/documents/cv-furkan-ceylan.pdf" class="btn" download>Download cv</a>
->>>>>>> 6d6e08ce52e382974eb277d600bce32be270a5e1
     </div>
   </section>
 

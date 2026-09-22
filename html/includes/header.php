@@ -4,11 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Portfolio — Furkan Ceylan</title>
-<<<<<<< HEAD
 <link rel="stylesheet" href="assets/css/style.css?v=20260921">
-=======
-<link rel="stylesheet" href="assets/css/style.css">
->>>>>>> 6d6e08ce52e382974eb277d600bce32be270a5e1
 <script src="assets/js/main.js" defer></script>
 </head>
 <body>
