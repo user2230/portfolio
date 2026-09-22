@@ -69,13 +69,6 @@ section:last-of-type {
   border-bottom: none
 }
 
-.eyebrow {
-  display: block;
-  margin-bottom: 14px;
-  color: var(--kraft);
-  font: 13px 'JetBrains Mono', monospace
-}
-
 .site-header {
   position: fixed;
   top: 0;

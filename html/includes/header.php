@@ -11,11 +11,11 @@
 
 <header class="site-header">
   <nav class="tabs" id="tabs" aria-label="Hoofdnavigatie">
-    <a href="#home" data-nav-section="home"><span>HOME</span><b>01</b></a>
-    <a href="#about" data-nav-section="about"><span>OVER MIJ</span><b>02</b></a>
-    <a href="#projects" data-nav-section="projects"><span>PROJECTEN</span><b>03</b></a>
-    <a href="#cv" data-nav-section="cv"><span>CV</span><b>04</b></a>
-    <a href="#contact" data-nav-section="contact"><span>CONTACT</span><b>05</b></a>
+    <a href="#home" data-nav-section="home"><span>HOME</span></a>
+    <a href="#about" data-nav-section="about"><span>OVER MIJ</span></a>
+    <a href="#projects" data-nav-section="projects"><span>PROJECTEN</span></a>
+    <a href="#cv" data-nav-section="cv"><span>CV</span></a>
+    <a href="#contact" data-nav-section="contact"><span>CONTACT</span></a>
   </nav>
 </header>
 

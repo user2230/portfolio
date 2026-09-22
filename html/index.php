@@ -24,7 +24,6 @@ require __DIR__ . '/includes/header.php';
   </div>
 
   <section id="about" data-fade-content>
-    <span class="eyebrow">01</span>
     <h2 class="head">Over mij</h2>
     <div class="about-body">
       <div class="about-copy">
@@ -41,7 +40,6 @@ require __DIR__ . '/includes/header.php';
   </section>
 
   <section id="skills" data-fade-content>
-    <span class="eyebrow">02</span>
     <h2 class="head">Skills</h2>
     <div class="card-row">
       <div class="index-card"><div class="name">HTML & CSS</div><div class="bar"><i style="width:90%"></i></div></div>
@@ -55,7 +53,6 @@ require __DIR__ . '/includes/header.php';
   </section>
 
   <section id="projects" data-fade-content>
-    <span class="eyebrow">03</span>
     <h2 class="head">Projecten</h2>
 
     <div class="project">
@@ -94,7 +91,6 @@ require __DIR__ . '/includes/header.php';
   </section>
 
   <section id="cv" data-fade-content>
-    <span class="eyebrow">04</span>
     <h2 class="head">CV</h2>
     <div class="envelope">
       <p>Bekijk mijn opleiding, ervaring en vaardigheden in mijn CV.</p>
@@ -103,7 +99,6 @@ require __DIR__ . '/includes/header.php';
   </section>
 
   <section id="contact" data-fade-content>
-    <span class="eyebrow">05</span>
     <h2 class="head">Contact</h2>
     <div class="contact-grid">
       <a href="mailto:Furkanefeceylan2008@gmail.com" class="contact-item">
